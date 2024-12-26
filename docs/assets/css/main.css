@@ -1002,6 +1002,13 @@ input, select, textarea {
 			object-position: 25% 75%;
 		}
 
+		.image[data-position="20% 65%"] img {
+			-moz-object-position: 20% 65%;
+			-webkit-object-position: 20% 65%;
+			-ms-object-position: 20% 65%;
+			object-position: 20% 65%;
+		}
+
 		.image img {
 			display: block;
 		}
